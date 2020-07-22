@@ -1,0 +1,10 @@
+sentence = input("Please enter a sentence :")
+
+frequence = {}
+
+for i in sentence:
+    if i in frequence:
+        frequence[i] += 1
+    else:
+        frequence[i] = 1
+print(str(frequence))  
